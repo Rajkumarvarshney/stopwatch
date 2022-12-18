@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  background: linear-gradient(to bottom, red, #900);
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#hr {
+  font-size: 40px;
+  font-weight: bold;
+  gap: 20px;
+}
+#min {
+  font-size: 40px;
+  font-weight: bold;
+}
+#sec {
+  font-size: 40px;
+  font-weight: bold;
+}
+#count {
+  font-size: 40px;
+  font-weight: bold;
+}
+button {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 15px white;
+}
